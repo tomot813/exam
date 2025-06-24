@@ -66,6 +66,7 @@ function createBron() {
   }
 
   if(flag && userInput.yesYouCan){
+    alert("Имя: " + userInput.name + "\n" + "Телефон: " + userInput.phoneNumber + "\n" + "Дата: " + userInput.date + "\n" +"Время: " + userInput.time+":00" + "\n" +"Длительность: " + userInput.name+"ч")
     userInput.name = ""
     userInput.phoneNumber = ""
     userInput.date = ""
@@ -73,7 +74,6 @@ function createBron() {
     userInput.dlitelnost =""
     userInput.yesYouCan  = false
     
-    alert("Имя: " + userInput.name + "\n" + "Телефон: " + userInput.phoneNumber + "\n" + "Дата: " + userInput.date + "\n" +"Время: " + userInput.time+":00" + "\n" +"Длительность: " + userInput.name+"ч")
   }
 }
 
